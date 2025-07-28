@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: QczerSC
-      run: ./QczerSC
     - name: make
       run: make
     - name: make check
